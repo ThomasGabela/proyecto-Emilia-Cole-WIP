@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body {
+    
+    background-image: url(../../img/emilia-home.jpg);
+    background-position: right;   
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 1080px;
+    background-attachment: fixed;
+    font-family: sans-serif;
+}
+#center {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    text-align: left;
+    bottom: 50%;
+}
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 5%;
+  width: 100%;
+  margin: 0;
+  text-transform: uppercase;
+
+}
+a {
+    text-decoration: none;
+    color: black;
+    
+}
+ul {
+    text-transform: uppercase;
+    padding: 5px;
+    box-sizing: border-box;     
+    overflow: hidden;
+    list-style-type: none;
+}
+
+header a:hover {
+    background-color: silver;
+}
+li{
+    width: 100px;
+    margin: 0;
+}
+
+h1{
+    
+    vertical-align: middle;
+    letter-spacing: 3px;
+    font-size: 30px;
+}
+h2{
+    
+    text-align: left;
+    text-align-last: left;
+    background-color: rgba(95, 158, 160, 0.199);
+    vertical-align: text-bottom;
+    font-size: 40px;
+    
+}
+
+.background-text{
+    text-align: left;
+}
+
+.share {
+    padding-top: 0px;
+}
+.share li{
+    float: left;
+    width: 2%;
+}
+
+.box {
+    width: 150px;
+    margin-left: 1%;    
+
+}
